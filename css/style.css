@@ -303,6 +303,7 @@ footer {
 .button-navi {
   letter-spacing: 0.03em;
   text-align: center;
+  font-weight: 500;
   background: var(--buttons-port-color);
   border-radius: 4px;
   line-height: 1.5;
