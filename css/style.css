@@ -59,7 +59,7 @@ button {
   letter-spacing: 0.03em;
   text-align: left;
   text-decoration: none;
-  margin: 24px 93px 25px 215px;
+  margin: 24px 93px 25px 200px;
   line-height: 1.17;
   display: inline-block;
   width: 145px;
@@ -71,6 +71,7 @@ button {
 
 header {
   border-bottom: 1px solid var(--line-color);
+  width: 1600px;
 }
 
 .header {
@@ -81,6 +82,7 @@ header {
   text-decoration: none;
   color: var(--main-text-color);
   display: inline-block;
+  margin-right: 46px;
 }
 
 .header:hover,
@@ -99,8 +101,10 @@ nav {
 }
 
 .navi {
-  width: 261px;
+  width: 254px;
   margin-top: 0px;
+  margin-left: 0px;
+
   display: flex;
   justify-content: space-between;
 }
@@ -115,7 +119,7 @@ nav {
 }
 
 .contact-first-flex {
-  margin-left: 371px;
+  margin-left: 325px;
   margin-top: 0;
   padding-top: 0;
   display: inline-block;
@@ -140,6 +144,7 @@ nav {
   height: 600px;
   width: 1600px;
   margin-left: 0px;
+  padding-left: 0px;
   margin-top: 0px;
 }
 
@@ -425,6 +430,6 @@ footer {
 
 .conteiner {
   width: 1200px;
-  margin: 0 auto;
+  margin: 0;
   padding: 0 15px;
 }
