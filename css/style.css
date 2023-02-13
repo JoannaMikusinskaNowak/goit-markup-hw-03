@@ -67,7 +67,11 @@ button {
 
 header {
   border-bottom: 1px solid var(--line-color);
-  width: 1600px;
+  display: flex;
+  align-items: center;
+}
+
+.header-wrap {
   display: flex;
   align-items: center;
 }
@@ -104,17 +108,10 @@ nav {
 
 .contact-first {
   color: var(--ouwer-text-color);
-  margin-right: 50px;
-}
-
-.contact-first:last-child {
-  margin-right: 0px;
 }
 
 .contact-first-flex {
   margin-left: auto;
-  margin-top: 0;
-  padding-top: 0;
   display: flex;
   gap: 50px;
 }
@@ -132,7 +129,6 @@ nav {
 
 .section-first {
   background-color: var(--background-footer-color);
-  padding: 200px 0;
   text-align: center;
 }
 
@@ -145,10 +141,14 @@ nav {
   font-size: 16px;
   line-height: 1.875;
   min-width: 200px;
-  margin-top: 30px;
   padding: 10px 42px;
   border: none;
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 .button-order:hover,
@@ -170,11 +170,8 @@ nav {
 }
 
 .section-first-conteiner {
-  height: 101px;
-  width: 1170px;
-  margin-left: 200px;
-  margin-top: 94px;
   display: flex;
+  gap: 30px;
 }
 
 .list-title {
@@ -195,46 +192,31 @@ nav {
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 0.03em;
-  margin-left: 609px;
-  margin-top: 94px;
   margin-bottom: 50px;
-  padding-left: 0px;
+  text-align: center;
 }
 
 .img-conteiner {
-  height: 386px;
-  width: 1170px;
-  margin-left: 200px;
   display: flex;
   gap: 30px;
+  margin-bottom: 94px;
 }
 
 .section-third {
   background-color: var(--buttons-port-color);
-  height: 648px;
-  width: 1600px;
-  display: inline-block;
 }
 
 .title-third {
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 0.03em;
-  margin-left: 680px;
-  margin-top: 94px;
   margin-bottom: 50px;
-  padding-left: 0px;
+  text-align: center;
 }
 
 .position-cointener {
-  margin-left: 215px;
-  margin-top: 50px;
-  padding-left: 0px;
-  width: 1170px;
-  height: 368px;
   display: flex;
   gap: 30px;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -262,14 +244,14 @@ nav {
   box-shadow: 0px 1px 3px 0px #0000001f;
   background-color: var(--secondary-text-color);
   height: 368px;
+  border-radius: 4px;
 }
 
 footer {
   background-color: var(--background-footer-color);
   color: var(--secondary-text-color);
   height: 252px;
-  width: 1600px;
-  margin-top: 0px;
+  margin-top: auto;
 }
 
 .logo-white {
@@ -280,11 +262,8 @@ footer {
   letter-spacing: 0.03em;
   text-align: left;
   text-decoration: none;
-  width: 145px;
-  margin-left: 215px;
-  margin-top: 60px;
-  padding-left: 0px;
-  display: inline-block;
+  display: flex;
+  padding-top: 60px;
 }
 
 .address {
@@ -296,11 +275,8 @@ footer {
   text-decoration: none;
   line-height: 1.7;
   font-style: normal;
-  margin-left: 215px;
   margin-top: 20px;
-  padding-left: 0px;
-  padding-top: 0px;
-  display: inline-block;
+  display: flex;
 }
 
 .contact-second {
@@ -313,9 +289,8 @@ footer {
   line-height: 1.7;
   font-style: normal;
   margin-top: 9px;
-  margin-left: 215px;
-  padding-left: 0px;
   margin-bottom: 9px;
+  display: flex;
 }
 
 .contact-second:hover,
@@ -324,13 +299,10 @@ footer {
 }
 
 .portfolio-conteiner {
-  height: 1360px;
-  width: 1170px;
-  margin-left: 215px;
-  margin-right: 215px;
   margin-top: 94px;
   margin-bottom: 94px;
   display: flex;
+  justify-content: center;
 }
 
 .button-navi {
@@ -353,13 +325,11 @@ footer {
 }
 
 .button-navi-all {
-  margin-left: 280px;
-  margin-right: 303px;
   display: flex;
   justify-content: center;
 }
 
-.section3-area {
+.section-third-area {
   background-color: var(--secondary-text-color);
   border: 1px solid var(--contener-color);
   height: 404px;
@@ -371,7 +341,7 @@ footer {
   flex-wrap: wrap;
 }
 
-.section3-area-last {
+.section-third-area-last {
   background-color: var(--secondary-text-color);
   border: 1px solid var(--contener-color);
   height: 404px;
@@ -385,7 +355,7 @@ footer {
   align-items: flex-start;
 }
 
-.section3-title {
+.section-third-title {
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -397,7 +367,7 @@ footer {
   padding-left: 24px;
 }
 
-.section3-type {
+.section-third-type {
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--ouwer-text-color);
@@ -410,16 +380,10 @@ footer {
   padding-left: 24px;
 }
 
-.section3-conteiner {
-  width: 1170px;
-  height: 1272px;
+.section-third-conteiner {
   display: flex;
-  gap: 30px;
   flex-wrap: wrap;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
+  gap: 30px;
 }
 
 .section {
@@ -429,6 +393,6 @@ footer {
 
 .conteiner {
   width: 1200px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 15px;
 }
