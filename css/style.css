@@ -42,6 +42,7 @@ a {
 
 address {
   font-style: normal;
+  margin-top: 20px;
 }
 
 button {
@@ -49,6 +50,17 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 4px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.conteiner {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .logo-black {
@@ -67,8 +79,6 @@ button {
 
 header {
   border-bottom: 1px solid var(--line-color);
-  display: flex;
-  align-items: center;
 }
 
 .header-wrap {
@@ -196,10 +206,13 @@ nav {
   text-align: center;
 }
 
+.section-second {
+  padding-bottom: 94px;
+}
+
 .img-conteiner {
   display: flex;
   gap: 30px;
-  margin-bottom: 94px;
 }
 
 .section-third {
@@ -220,13 +233,16 @@ nav {
   align-items: center;
 }
 
+.wrap-names {
+  padding-top: 30px;
+}
+
 .teams-names {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-top: 30px;
 }
 
 .teams-position {
@@ -236,6 +252,7 @@ nav {
   color: var(--ouwer-text-color);
   text-align: center;
   margin-top: 10px;
+  padding-bottom: 30px;
 }
 
 .section-shadow {
@@ -243,15 +260,12 @@ nav {
   box-shadow: 0px 1px 1px 0px #00000024;
   box-shadow: 0px 1px 3px 0px #0000001f;
   background-color: var(--secondary-text-color);
-  height: 368px;
   border-radius: 4px;
 }
 
 footer {
   background-color: var(--background-footer-color);
-  color: var(--secondary-text-color);
-  height: 252px;
-  margin-top: auto;
+  padding: 60px 0;
 }
 
 .logo-white {
@@ -263,7 +277,6 @@ footer {
   text-align: left;
   text-decoration: none;
   display: flex;
-  padding-top: 60px;
 }
 
 .address {
@@ -275,7 +288,6 @@ footer {
   text-decoration: none;
   line-height: 1.7;
   font-style: normal;
-  margin-top: 20px;
   display: flex;
 }
 
@@ -288,8 +300,6 @@ footer {
   color: var(--footer-text-color);
   line-height: 1.7;
   font-style: normal;
-  margin-top: 9px;
-  margin-bottom: 9px;
   display: flex;
 }
 
@@ -298,9 +308,13 @@ footer {
   color: var(--acent-color);
 }
 
+.wrap-footer {
+  margin-bottom: 9px;
+}
+
 .portfolio-conteiner {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   display: flex;
   justify-content: center;
 }
@@ -312,10 +326,7 @@ footer {
   background: var(--buttons-port-color);
   border-radius: 4px;
   line-height: 1.5;
-  height: 38px;
-  margin-right: 8px;
-  padding-right: 22px;
-  padding-left: 22px;
+  padding: 6px 22px;
 }
 
 .button-navi:hover,
@@ -327,32 +338,12 @@ footer {
 .button-navi-all {
   display: flex;
   justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
 }
 
 .section-third-area {
-  background-color: var(--secondary-text-color);
-  border: 1px solid var(--contener-color);
-  height: 404px;
-  width: 364px;
-  margin-top: 34px;
-  margin-left: 0px;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.section-third-area-last {
-  background-color: var(--secondary-text-color);
-  border: 1px solid var(--contener-color);
-  height: 404px;
-  width: 364px;
-  margin-top: 34px;
-  margin-right: 0px;
-  margin-left: 0px;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  width: 360px;
 }
 
 .section-third-title {
@@ -361,10 +352,6 @@ footer {
   letter-spacing: 0.06em;
   text-align: left;
   line-height: 2;
-  margin-left: 0px;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  padding-left: 24px;
 }
 
 .section-third-type {
@@ -374,10 +361,7 @@ footer {
   line-height: 1.9;
   font-size: 16px;
   font-weight: 400;
-  height: 30px;
-  width: 322px;
   margin-top: 4px;
-  padding-left: 24px;
 }
 
 .section-third-conteiner {
@@ -386,13 +370,7 @@ footer {
   gap: 30px;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.conteiner {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+wrap-title {
+  border: 1px soli var(--contener-color);
+  padding: 20px 24px;
 }
